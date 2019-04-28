@@ -1,5 +1,5 @@
 # Jianzhi-offer-subjects-sorting
-第2章 面试需要的基础知识  
+## 第2章 面试需要的基础知识  
 面试题3：二维数组中的查找（findIn2DArray）  
 面试题4：替换空格（replaceSpace）  
 面试题5：从尾到头打印链表（printListFromTailToHead）  
