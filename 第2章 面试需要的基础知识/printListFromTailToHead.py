@@ -9,12 +9,12 @@
 题目：输入一个链表，从尾到头打印链表每个节点的值
 '''
 
-class ListNode(object):
+class ListNode:
     def __init__(self, val=None, next=None):
         self.val = val
         self.next = next
 
-def list_2_linknode(arr):
+def list_2_listnode(arr: 'list[int]') -> 'ListNode':
     if not arr or len(arr) <= 0:
         return ListNode()
     tem_node = ListNode()
@@ -63,14 +63,14 @@ class Solution:
 
 if __name__ == "__main__":
     arr = [1, 2, 3, 4, 5]
-    l1 = list_2_linknode(arr)
+    l1 = list_2_listnode(arr)
     a = Solution()
     res = a.printListFromTailToHead(l1)
     print(res)
     res = a.printListFromTailToHead_2(l1)
     print(res)
     arr = []
-    l1 = list_2_linknode(arr)
+    l1 = list_2_listnode(arr)
     a = Solution()
     res = a.printListFromTailToHead(l1)
     print(res)
