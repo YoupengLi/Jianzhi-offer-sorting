@@ -8,7 +8,8 @@
 扩展：用两个队列实现栈（twoQueueForOneStack）  
 面试题8：旋转数组的最小数字（minNumberInRotateArray）  
 面试题9：斐波那契数列（fibonacci）  
-扩展：青蛙跳台阶（jumpFloor） 矩行覆盖（rectCover）  
+扩展：青蛙跳台阶（jumpFloor）  
+扩展：矩行覆盖（rectCover）   
 面试题10：二进制中1的个数（numberOfOne） 
 
 ## 第3章 高质量的代码
@@ -41,6 +42,9 @@
 面试题33：把数组排成最小的数（printMinNumber）  
 面试题34：丑数（getUglyNumber）  
 面试题35：第一个只出现一次的字符（firstNotRepeatingChar）  
+扩展：从第一个字符串中删除第二个字符串中出现的字符（removeCharsInSecondString）  
+扩展：删除字符串中所有重复出现的字符（removeRepeatingchars）  
+扩展：判断两个字符串是不是互为变位词（isAnagram）  
 面试题36：数组中的逆序对（getInversePairs）  
 面试题37：两个链表的第一个公共结点（findFirstCommonNode）  
 
