@@ -17,7 +17,7 @@
 '''
 
 class Solution:
-    def moreThanHalfNumber(self, arr):
+    def moreThanHalfNumber(self, arr: 'list[int]') -> 'int':
         if not arr or len(arr) <= 0:
             return 0
         arr.sort()
@@ -30,7 +30,7 @@ class Solution:
         return res if sum * 2 > len(arr) else 0
 
 
-    def moreThanHalfNumber_1(self, arr):
+    def moreThanHalfNumber_1(self, arr: 'list[int]') -> 'int':
         if not arr or len(arr) <= 0:
             return 0
 

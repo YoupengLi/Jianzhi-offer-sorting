@@ -14,7 +14,7 @@
 '''
 
 class Solution:
-    def getLeastKNumbers(self, arr, k):
+    def getLeastKNumbers(self, arr: 'list[int]', k: 'int') -> 'list[int]':
         import heapq
         if not arr or len(arr) <= 0 or k <= 0 or len(arr) < k:
             return []
