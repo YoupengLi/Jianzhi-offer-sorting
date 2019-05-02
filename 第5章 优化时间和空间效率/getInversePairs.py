@@ -70,7 +70,6 @@ class Solution:
         end_time = time.clock()
         return count, end_time - start_time
 
-
     '''
     方法三：归并排序法
     '''
@@ -129,20 +128,17 @@ class Solution:
 
         return count + left + right
 
-
 if __name__ == "__main__":
     a = Solution()
-    '''
     arr = np.arange(1, 10000)
     arr = np.append(arr, 0)
     arr = arr.tolist()
     print(a.getInversePairs(arr))
-    '''
-    arr = np.arange(1, 500000)
+    arr = np.arange(1, 80000)
     arr = np.append(arr, 0)
     arr = arr.tolist()
     print(a.getInversePairs_1(arr))
-    arr = np.arange(1, 500000)
+    arr = np.arange(1, 80000)
     arr = np.append(arr, 0)
     arr = arr.tolist()
     print(a.getInversePairs_2(arr))
