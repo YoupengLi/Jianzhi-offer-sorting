@@ -57,6 +57,7 @@
 面试题41.2：和为s的连续正数序列（findContinuousSequence）  
 面试题42.1：翻转单词顺序（reverseSentence）  
 面试题42.2：左旋转字符串（leftRotateString）  
+扩展：翻转字符串中所有单词（reverseWordsInString）  
 面试题43：n个骰子的点数（printProbability）  
 面试题44：扑克牌的顺子（isContinuous）  
 面试题45：圆圈中最后剩下的数字（lastRemaining）  
